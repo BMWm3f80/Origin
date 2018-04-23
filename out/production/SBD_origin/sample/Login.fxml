@@ -43,7 +43,7 @@
             </GridPane>
             <GridPane GridPane.rowIndex="2">
               <children>
-                <Button fx:id="kirish_button" onAction="#handle_kirish_button" defaultButton="true" mnemonicParsing="false" prefHeight="117.0" prefWidth="437.0" style="-fx-background-color: #2A5AF3;" text="Kirish" textFill="ALICEBLUE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <Button fx:id="kirish_button" defaultButton="true" mnemonicParsing="false" onAction="#handle_kirish_button" prefHeight="117.0" prefWidth="437.0" style="-fx-background-color: #2A5AF3;" text="Kirish" textFill="ALICEBLUE" GridPane.columnIndex="1" GridPane.rowIndex="1">
                   <font>
                     <Font size="32.0" />
                   </font>
@@ -72,6 +72,11 @@
                     <Font size="72.0" />
                   </font>
                 </Label>
+                        <Label fx:id="dbstatus" alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="Status" textAlignment="RIGHT" GridPane.columnIndex="2">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
               </children>
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />

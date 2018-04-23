@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="testdatabase.db" uuid="536a8e1f-5be9-4862-9dea-5600fcb1f0c1">
+    <data-source source="LOCAL" name="testdatabase.sqlite" uuid="5d674855-9dca-446e-80bc-05fca887e0d8">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
-      <remarks>SBD Origin database</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/testdatabase.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:D:\Projects\SBD_myBranch\testdatabase.sqlite</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>
